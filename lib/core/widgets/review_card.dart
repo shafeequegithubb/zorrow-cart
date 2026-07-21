@@ -72,10 +72,7 @@ class ReviewCard extends StatelessWidget {
 
           const SizedBox(height: 16),
 
-          const Text(
-            "Excellent quality! The product arrived on time and looks exactly as shown. Highly recommended.",
-            style: TextStyle(height: 1.5, color: Colors.black87),
-          ),
+          Text(reviews, style: TextStyle(height: 1.5, color: Colors.black87)),
         ],
       ),
     );
